@@ -1,0 +1,27 @@
+def cheeseAndCrackers(CheeseCount, BoxofCrackers):
+	print(f"You have {CheeseCount} pieces of Cheese.")
+	print(f"You have {BoxofCrackers} boxes of Crackers.")
+	print("We have a party!")
+	print("Get a blanket.\n")
+
+print("We can insert numbers directly:")
+cheeseAndCrackers(20, 30)
+
+print("Or we can use variables from scripts")
+amountofcheese = 10
+amountofcrackers = 50
+
+cheeseAndCrackers(amountofcheese, amountofcrackers)
+
+print("We can even do maths inside it:")
+
+cheeseAndCrackers(10 + 20 + 5 + 6, 10 * 8)
+
+print("And we can combine them:")
+
+cheeseAndCrackers(amountofcheese * 10, amountofcrackers + 200)
+
+numofcheese = int(input("How many Cheese do you have?: "))
+numofcrackers = int(input("How many Crackers do you have?: "))
+
+cheeseAndCrackers(numofcheese * 2, numofcrackers * 5)
